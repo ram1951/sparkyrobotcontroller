@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = KeyReaderView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {
+                onConnectBtn = id; 
+                onDisconnectBtn = id; 
+                onMoveLeft = id; 
+                onMoveLeftSlow = id; 
+                onMoveReverse = id; 
+                onMoveReverseSlow = id; 
+                onMoveRight = id; 
+                onMoveRightSlow = id; 
+                onMoveStraight = id; 
+                onMoveStraightSlow = id; 
+                onSendBtn = id; 
+            }; 
+            CLASS = SkypeController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {MyKeyReader = id; "button_w" = id; commandField = id; infoView = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {onMoveLeft = id; onMoveReverse = id; onMoveRight = id; onMoveStraight = id; }; 
+            CLASS = Sparky; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
