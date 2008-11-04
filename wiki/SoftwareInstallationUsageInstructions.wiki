@@ -10,13 +10,13 @@ http://code.google.com/p/sparkyrobotcontroller/
 ==Overview==
 There are several pieces of software that need to be installed and configured:
 
- # Sparky Skype Listener Plugin -- runs along with Skype and listens for incoming text messages with motor commands
+ # Sparky Skype Server -- runs along with Skype and listens for incoming text messages with motor commands
  # Sparky MakeBoard Controller -- communicates with the Skype Listener, parses abstract motor commands, sends low-level commands to MakeBoard
  # Sparky Controller Skype Plugin -- runs along with Skype on any Mac OSX 10.4 and greater machine which you want to use drive your robot
 
 Once you have these software packages installed and configured, you are ready to go
 
-== Sparky Skype Listener Plugin ==
+== Sparky Skype Server ==
 
  * Download/Install Skype onto the robot computer
  * Download the Sparky Skpe Listener Plugin from http://code.google.com/p/sparkyrobotcontroller/.
