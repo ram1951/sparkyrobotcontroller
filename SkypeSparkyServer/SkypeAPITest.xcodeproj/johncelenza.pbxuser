@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = B65BA8850CA6CE07000ED0E4 /* SkypeAPITest */;
+		activeTarget = 8D1107260486CEB800E47090 /* SkypeAPITest */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* SkypeAPITest */,
+		);
+		breakpoints = (
+			B6DF1C640CA6DDFF0094CE07 /* SkypeController.m:85 */,
+			B6DF1C7A0CA6DF960094CE07 /* SkypeController.m:30 */,
+			B6DF1CA40CA6E22E0094CE07 /* SkypeController.m:23 */,
+			B609CBEB0CA6F318008EE11A /* Sparky.m:156 */,
+			B609CC4D0CA6FA25008EE11A /* Sparky.m:39 */,
+			B6AB8F240CA74FF9006F8FFC /* Sparky.m:94 */,
+			B6AB8F480CA752C4006F8FFC /* Sparky.m:100 */,
+			B6AB8F950CA75ABA006F8FFC /* SkypeController.m:106 */,
+			B6CD25370CCEF54D00CF0B0F /* Sparky.m:78 */,
+			B6CD25420CCEF60700CF0B0F /* SkypeController.m:115 */,
+			B6F1A8DA0CD4FFF4004D92CC /* SkypeController.m:202 */,
+			B6F1A8E10CD5001E004D92CC /* Sparky.m:75 */,
+			B6F1A8E50CD50041004D92CC /* SkypeController.m:177 */,
+			B6F1A8EB0CD50096004D92CC /* SkypeController.m:194 */,
+			B6F1A8F30CD50239004D92CC /* SkypeController.m:186 */,
+			B6F1A8F50CD5023C004D92CC /* SkypeController.m:187 */,
+			B6F1A90E0CD50336004D92CC /* SkypeController.m:185 */,
+			B6F1A9180CD503DF004D92CC /* SkypeController.m:182 */,
+			B6F1A9310CD50639004D92CC /* SkypeController.m:148 */,
+			B6F1A96A0CD50E25004D92CC /* SkypeController.m:200 */,
+			B6F1A9BD0CD5147C004D92CC /* SkypeController.m:120 */,
+			B6F9D0BD0CD5197C00FAE001 /* SkypeController.m:89 */,
+			B6F9D10C0CD6F75600FAE001 /* SkypeController.m:157 */,
+			B6F9D1190CD6F97A00FAE001 /* SkypeController.m:164 */,
+			B6F9D1230CD6FA0900FAE001 /* SkypeController.m:126 */,
+			B6F9D12F0CD6FBA000FAE001 /* SkypeController.m:127 */,
+			B6F9D1570CD6FF5000FAE001 /* SkypeController.m:98 */,
+			B6D08CCF0CDE85B900266246 /* SkypeController.m:134 */,
+			B6D08CF90CDE8A2D00266246 /* SkypeController.m:130 */,
+			B6D08D020CDEDA0300266246 /* SkypeController.m:131 */,
+			B6D08D0B0CDEDBAC00266246 /* Sparky.m:151 */,
+			B62D32290CDEE44000FF1389 /* SkypeController.m:34 */,
+			B62D32330CDEE46E00FF1389 /* SkypeController.m:28 */,
+			B62D32390CDEE4E700FF1389 /* SkypeController.m:413 */,
+		);
+		breakpointsGroup = B6DF1CA90CA6E2600094CE07 /* XCBreakpointsBucket */;
+		codeSenseManager = B65BA8940CA6CE13000ED0E4 /* Code sense */;
+		executables = (
+			B65BA8850CA6CE07000ED0E4 /* SkypeAPITest */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					210,
+					20,
+					110,
+					109,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					183,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 247468189;
+			PBXWorkspaceStateSaveDate = 247468189;
+		};
+		perUserProjectItems = {
+			B62D32130CDEE3DD00FF1389 /* PBXTextBookmark */ = B62D32130CDEE3DD00FF1389 /* PBXTextBookmark */;
+			B62D32160CDEE3DD00FF1389 /* PBXTextBookmark */ = B62D32160CDEE3DD00FF1389 /* PBXTextBookmark */;
+			B62D32170CDEE3DD00FF1389 /* PBXTextBookmark */ = B62D32170CDEE3DD00FF1389 /* PBXTextBookmark */;
+			B62D32180CDEE3DD00FF1389 /* PBXTextBookmark */ = B62D32180CDEE3DD00FF1389 /* PBXTextBookmark */;
+			B62D322B0CDEE44800FF1389 /* PBXTextBookmark */ = B62D322B0CDEE44800FF1389 /* PBXTextBookmark */;
+			B68FE9640EBFF1BC00EBF40C /* PBXTextBookmark */ = B68FE9640EBFF1BC00EBF40C /* PBXTextBookmark */;
+			B6B1654E0EC0171500643A8A /* PBXTextBookmark */ = B6B1654E0EC0171500643A8A /* PBXTextBookmark */;
+			B6F9D0ED0CD5A4C800FAE001 /* PBXTextBookmark */ = B6F9D0ED0CD5A4C800FAE001 /* PBXTextBookmark */;
+			B6F9D0EF0CD5A4C800FAE001 /* PBXTextBookmark */ = B6F9D0EF0CD5A4C800FAE001 /* PBXTextBookmark */;
+		};
+		sourceControlManager = B65BA8930CA6CE13000ED0E4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 210}}";
+			sepNavSelRange = "{260, 0}";
+			sepNavVisRect = "{{0, 42}, {870, 168}}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+	8D1107260486CEB800E47090 /* SkypeAPITest */ = {
+		activeExec = 0;
+		executables = (
+			B65BA8850CA6CE07000ED0E4 /* SkypeAPITest */,
+		);
+	};
+	B609CBEB0CA6F318008EE11A /* Sparky.m:156 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = B6DF1BEC0CA6D85F0094CE07 /* Sparky.m */;
+		functionName = "-Debug:";
+		hitCount = 1;
+		lineNumber = 156;
+		location = SkypeAPITest;
+		modificationTime = 215934067.53855;
+		state = 2;
+	};
+	B609CC4D0CA6FA25008EE11A /* Sparky.m:39 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = B6DF1BEC0CA6D85F0094CE07 /* Sparky.m */;
+		functionName = "-chatGrabID:";
+		hitCount = 1;
+		lineNumber = 39;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538554;
+		state = 2;
+	};
+	B62D320A0CDEE39D00FF1389 /* NSObject.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSObject.h;
+		path = /System/Library/Frameworks/Foundation.framework/Headers/NSObject.h;
+		sourceTree = "<absolute>";
+	};
+	B62D32130CDEE3DD00FF1389 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: main";
+		rLen = 0;
+		rLoc = 260;
+		rType = 0;
+		vrLen = 262;
+		vrLoc = 0;
+	};
+	B62D32160CDEE3DD00FF1389 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B62D320A0CDEE39D00FF1389 /* NSObject.h */;
+		name = "- (id)init;";
+		rLen = 12;
+		rLoc = 1288;
+		rType = 0;
+		vrLen = 501;
+		vrLoc = 1071;
+	};
+	B62D32170CDEE3DD00FF1389 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: main";
+		rLen = 0;
+		rLoc = 260;
+		rType = 0;
+		vrLen = 262;
+		vrLoc = 0;
+	};
+	B62D32180CDEE3DD00FF1389 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B62D320A0CDEE39D00FF1389 /* NSObject.h */;
+		name = "- (id)init;";
+		rLen = 12;
+		rLoc = 1288;
+		rType = 0;
+		vrLen = 501;
+		vrLoc = 1071;
+	};
+	B62D32290CDEE44000FF1389 /* SkypeController.m:34 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-awakeFromNib";
+		hitCount = 1;
+		lineNumber = 34;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538684;
+		state = 2;
+	};
+	B62D322B0CDEE44800FF1389 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E7E5BCCE080EFBE700891402 /* SkypeController.h */;
+		name = "- (id)init;";
+		rLen = 12;
+		rLoc = 528;
+		rType = 0;
+		vrLen = 652;
+		vrLoc = 0;
+	};
+	B62D32330CDEE46E00FF1389 /* SkypeController.m:28 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-init";
+		hitCount = 1;
+		lineNumber = 28;
+		location = SkypeAPITest;
+		modificationTime = 215934070.260601;
+		state = 1;
+	};
+	B62D32390CDEE4E700FF1389 /* SkypeController.m:413 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-http_sendMoveCommand:";
+		hitCount = 1;
+		lineNumber = 413;
+		location = SkypeAPITest;
+		modificationTime = 215934192.510117;
+		state = 1;
+	};
+	B65BA8850CA6CE07000ED0E4 /* SkypeAPITest */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SkypeAPITest;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	B65BA8930CA6CE13000ED0E4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	B65BA8940CA6CE13000ED0E4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B68FE9640EBFF1BC00EBF40C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		name = "SkypeController.m: 373";
+		rLen = 0;
+		rLoc = 10749;
+		rType = 0;
+		vrLen = 776;
+		vrLoc = 10197;
+	};
+	B6AB8F240CA74FF9006F8FFC /* Sparky.m:94 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = B6DF1BEC0CA6D85F0094CE07 /* Sparky.m */;
+		functionName = "-handleMessage:SkypeControllerMyController";
+		hitCount = 1;
+		lineNumber = 94;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538558;
+		state = 2;
+	};
+	B6AB8F480CA752C4006F8FFC /* Sparky.m:100 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = B6DF1BEC0CA6D85F0094CE07 /* Sparky.m */;
+		functionName = "-handleMessage:";
+		hitCount = 1;
+		lineNumber = 100;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538562;
+		state = 2;
+	};
+	B6AB8F950CA75ABA006F8FFC /* SkypeController.m:106 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 106;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538567;
+		state = 2;
+	};
+	B6B1654E0EC0171500643A8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		name = "SkypeController.m: 370";
+		rLen = 0;
+		rLoc = 10570;
+		rType = 0;
+		vrLen = 673;
+		vrLoc = 10346;
+	};
+	B6CD25370CCEF54D00CF0B0F /* Sparky.m:78 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = B6DF1BEC0CA6D85F0094CE07 /* Sparky.m */;
+		functionName = "-handleAnswer:";
+		hitCount = 1;
+		lineNumber = 78;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538571;
+		state = 2;
+	};
+	B6CD25420CCEF60700CF0B0F /* SkypeController.m:115 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 115;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538575;
+		state = 2;
+	};
+	B6D08CCF0CDE85B900266246 /* SkypeController.m:134 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 134;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538667;
+		state = 2;
+	};
+	B6D08CF90CDE8A2D00266246 /* SkypeController.m:130 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 130;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538671;
+		state = 2;
+	};
+	B6D08D020CDEDA0300266246 /* SkypeController.m:131 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 131;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538675;
+		state = 2;
+	};
+	B6D08D0B0CDEDBAC00266246 /* Sparky.m:151 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = B6DF1BEC0CA6D85F0094CE07 /* Sparky.m */;
+		functionName = "-http_sendMoveCommand:";
+		hitCount = 1;
+		lineNumber = 151;
+		location = SkypeAPITest;
+		modificationTime = 215934067.53868;
+		state = 2;
+	};
+	B6DF1BEC0CA6D85F0094CE07 /* Sparky.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Sparky.m;
+		path = /Developer/Skype/SkypeAPITestSource/Sparky.m;
+		sourceTree = "<absolute>";
+	};
+	B6DF1C640CA6DDFF0094CE07 /* SkypeController.m:85 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 85;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538529;
+		state = 2;
+	};
+	B6DF1C7A0CA6DF960094CE07 /* SkypeController.m:30 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "";
+		hitCount = 1;
+		lineNumber = 30;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538541;
+		state = 2;
+	};
+	B6DF1CA40CA6E22E0094CE07 /* SkypeController.m:23 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-iniSkypeController";
+		hitCount = 1;
+		lineNumber = 23;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538546;
+		state = 2;
+	};
+	B6DF1CA90CA6E2600094CE07 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+			B6DF1C640CA6DDFF0094CE07 /* SkypeController.m:85 */,
+			B6DF1C7A0CA6DF960094CE07 /* SkypeController.m:30 */,
+			B6DF1CA40CA6E22E0094CE07 /* SkypeController.m:23 */,
+			B609CBEB0CA6F318008EE11A /* Sparky.m:156 */,
+			B609CC4D0CA6FA25008EE11A /* Sparky.m:39 */,
+			B6AB8F240CA74FF9006F8FFC /* Sparky.m:94 */,
+			B6AB8F480CA752C4006F8FFC /* Sparky.m:100 */,
+			B6AB8F950CA75ABA006F8FFC /* SkypeController.m:106 */,
+			B6CD25370CCEF54D00CF0B0F /* Sparky.m:78 */,
+			B6CD25420CCEF60700CF0B0F /* SkypeController.m:115 */,
+			B6F1A8DA0CD4FFF4004D92CC /* SkypeController.m:202 */,
+			B6F1A8E10CD5001E004D92CC /* Sparky.m:75 */,
+			B6F1A8E50CD50041004D92CC /* SkypeController.m:177 */,
+			B6F1A8EB0CD50096004D92CC /* SkypeController.m:194 */,
+			B6F1A8F30CD50239004D92CC /* SkypeController.m:186 */,
+			B6F1A8F50CD5023C004D92CC /* SkypeController.m:187 */,
+			B6F1A90E0CD50336004D92CC /* SkypeController.m:185 */,
+			B6F1A9180CD503DF004D92CC /* SkypeController.m:182 */,
+			B6F1A9310CD50639004D92CC /* SkypeController.m:148 */,
+			B6F1A96A0CD50E25004D92CC /* SkypeController.m:200 */,
+			B6F1A9BD0CD5147C004D92CC /* SkypeController.m:120 */,
+			B6F9D0BD0CD5197C00FAE001 /* SkypeController.m:89 */,
+			B6F9D10C0CD6F75600FAE001 /* SkypeController.m:157 */,
+			B6F9D1190CD6F97A00FAE001 /* SkypeController.m:164 */,
+			B6F9D1230CD6FA0900FAE001 /* SkypeController.m:126 */,
+			B6F9D12F0CD6FBA000FAE001 /* SkypeController.m:127 */,
+			B6F9D1570CD6FF5000FAE001 /* SkypeController.m:98 */,
+			B6D08CCF0CDE85B900266246 /* SkypeController.m:134 */,
+			B6D08CF90CDE8A2D00266246 /* SkypeController.m:130 */,
+			B6D08D020CDEDA0300266246 /* SkypeController.m:131 */,
+			B6D08D0B0CDEDBAC00266246 /* Sparky.m:151 */,
+			B62D32290CDEE44000FF1389 /* SkypeController.m:34 */,
+			B62D32330CDEE46E00FF1389 /* SkypeController.m:28 */,
+			B62D32390CDEE4E700FF1389 /* SkypeController.m:413 */,
+		);
+	};
+	B6F1A8DA0CD4FFF4004D92CC /* SkypeController.m:202 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 202;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538586;
+		state = 2;
+	};
+	B6F1A8E10CD5001E004D92CC /* Sparky.m:75 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = B6DF1BEC0CA6D85F0094CE07 /* Sparky.m */;
+		functionName = "-handleAnswer:";
+		hitCount = 1;
+		lineNumber = 75;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538592;
+		state = 2;
+	};
+	B6F1A8E50CD50041004D92CC /* SkypeController.m:177 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 177;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538596;
+		state = 2;
+	};
+	B6F1A8EB0CD50096004D92CC /* SkypeController.m:194 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 194;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538601;
+		state = 2;
+	};
+	B6F1A8F30CD50239004D92CC /* SkypeController.m:186 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 186;
+		modificationTime = 215934067.538605;
+		state = 2;
+	};
+	B6F1A8F50CD5023C004D92CC /* SkypeController.m:187 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 187;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538609;
+		state = 2;
+	};
+	B6F1A90E0CD50336004D92CC /* SkypeController.m:185 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 185;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538613;
+		state = 2;
+	};
+	B6F1A9180CD503DF004D92CC /* SkypeController.m:182 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 182;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538617;
+		state = 2;
+	};
+	B6F1A9310CD50639004D92CC /* SkypeController.m:148 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 148;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538621;
+		state = 2;
+	};
+	B6F1A96A0CD50E25004D92CC /* SkypeController.m:200 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 200;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538625;
+		state = 2;
+	};
+	B6F1A9BD0CD5147C004D92CC /* SkypeController.m:120 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 120;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538636;
+		state = 2;
+	};
+	B6F9D0BD0CD5197C00FAE001 /* SkypeController.m:89 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 89;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538642;
+		state = 2;
+	};
+	B6F9D0ED0CD5A4C800FAE001 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		name = "SkypeController.m: 82";
+		rLen = 0;
+		rLoc = 1818;
+		rType = 0;
+		vrLen = 650;
+		vrLoc = 181;
+	};
+	B6F9D0EF0CD5A4C800FAE001 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E7E5BCCE080EFBE700891402 /* SkypeController.h */;
+		name = "SkypeController.h: in_progress";
+		rLen = 0;
+		rLoc = 410;
+		rType = 0;
+		vrLen = 537;
+		vrLoc = 0;
+	};
+	B6F9D10C0CD6F75600FAE001 /* SkypeController.m:157 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 157;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538646;
+		state = 2;
+	};
+	B6F9D1190CD6F97A00FAE001 /* SkypeController.m:164 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 164;
+		location = SkypeAPITest;
+		modificationTime = 215934067.53865;
+		state = 2;
+	};
+	B6F9D1230CD6FA0900FAE001 /* SkypeController.m:126 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 126;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538654;
+		state = 2;
+	};
+	B6F9D12F0CD6FBA000FAE001 /* SkypeController.m:127 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 127;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538659;
+		state = 2;
+	};
+	B6F9D1570CD6FF5000FAE001 /* SkypeController.m:98 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = E7E5BCCF080EFBE700891402 /* SkypeController.m */;
+		functionName = "-skypeNotificationReceived:";
+		hitCount = 1;
+		lineNumber = 98;
+		location = SkypeAPITest;
+		modificationTime = 215934067.538663;
+		state = 2;
+	};
+	E7E5BCCE080EFBE700891402 /* SkypeController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 630}}";
+			sepNavSelRange = "{528, 12}";
+			sepNavVisRect = "{{0, 0}, {711, 429}}";
+			sepNavWindowFrame = "{{504, 139}, {750, 558}}";
+		};
+	};
+	E7E5BCCF080EFBE700891402 /* SkypeController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1070, 5964}}";
+			sepNavSelRange = "{10570, 0}";
+			sepNavVisRect = "{{0, 5015}, {711, 429}}";
+			sepNavWindowFrame = "{{159, -54}, {750, 558}}";
+		};
+	};
+}
