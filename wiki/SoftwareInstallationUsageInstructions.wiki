@@ -52,7 +52,10 @@ Once you have these software packages installed and configured, you are ready to
  ** type "crontab -e" -- this will start the VI editor, if you do not know how to use VI, try looking on Google, or just follow these steps:
  ** move to the last line of the file with arrow-keys
  ** type "i"
- ** paste: "* * * * * php /Sparky/shell_check_sparky.php &> /dev/null"
+ ** paste:
+{{{
+ * * * * * php /Sparky/shell_check_sparky.php &> /dev/null
+}}}
  ** type ":wq" (which should appear at the bottom of the screen)
 
 == Sparky Controller Skype Plugin ==
