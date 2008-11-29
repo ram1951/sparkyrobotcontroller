@@ -34,6 +34,8 @@ Once you have these software packages installed and configured, you are ready to
   ** control.hdf -- confiuration file that maps a control string like "move_left" to servo actions
   ** controld.php -- PHP script that listens for commands from the Skype plugin
   ** shell_check_sprarky.php -- PHP script the makes sure controld.php is always running
+  ** OSC.phps -- Open Sound control library to interface with MakeController
+  ** hdf.php -- Hierarchal Data Format reader (http://clearsilver.org)
 
  * edit control.hdf to configure the move commands as your wish. By default, these commands are support:
 {{{
