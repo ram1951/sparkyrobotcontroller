@@ -1,4 +1,4 @@
-<pkmkdoc spec="1.12"><properties><title>Sparky Server</title><organization>com.sparky</organization><userSees ui="easy"/><min-target os="3"/><domain system="true"/></properties><distribution><versions min-spec="1.000000"/><scripts></scripts></distribution><description>This package will install:
+<pkmkdoc spec="1.12"><properties><title>Sparky Server</title><build>/Developer/sparky/svn/sparkyrobotcontroller/installers/irobot/SkypeSparkyServer/leopard/Sparky Server.pkg</build><organization>com.sparky</organization><userSees ui="easy"/><min-target os="3"/><domain system="true"/></properties><distribution><versions min-spec="1.000000"/><scripts></scripts></distribution><description>This package will install:
 + SkypeSparkyServer -- listens for Skype 
 	text messages to control the Irobot
 	Create and relays these messages to
@@ -11,4 +11,4 @@
 + crontab -- cron entry to schedule
 	shell_check_sparky_irobot.php
 	to run every minute
-</description><contents><choice title="leopard" id="choice3" starts_selected="true" starts_enabled="true" starts_hidden="false"><pkgref id="com.sparky.sparkyServer.leopard.pkg"/></choice></contents><resources bg-scale="none" bg-align="topleft"/><flags/><extra-files/><item type="file">01leopard.xml</item><mod>properties.anywhereDomain</mod><mod>properties.systemDomain</mod><mod>properties.customizeOption</mod><mod>extraFiles</mod><mod>properties.title</mod><mod>description</mod></pkmkdoc>
+</description><contents><choice title="Applications" id="choice4" starts_selected="true" starts_enabled="true" starts_hidden="false"><pkgref id="com.sparky.sparkyServer.applications.pkg"/></choice><choice title="Sparky" id="choice5" starts_selected="true" starts_enabled="true" starts_hidden="false"><pkgref id="com.sparky.sparkyServer.sparky.pkg"/></choice></contents><resources bg-scale="none" bg-align="topleft"/><flags/><extra-files/><item type="file">01applications.xml</item><item type="file">02sparky.xml</item><mod>properties.anywhereDomain</mod><mod>properties.systemDomain</mod><mod>properties.customizeOption</mod><mod>extraFiles</mod><mod>properties.title</mod><mod>description</mod></pkmkdoc>
