@@ -1,0 +1,16 @@
+Welcome to the Sparky Skype Server Installer
+============================================
+
+This package will install:
++ SkypeSparkyServer -- listens for Skype 
+	text messages to control the Irobot
+	Create and relays these messages to
+	controld
++ controld -- daemon that controls Irobot
+	Create
++ shell_check_sparky_irobot.php -- check
+	script to make sure controld 
+	is started and running
++ crontab -- cron entry to schedule
+	shell_check_sparky_irobot.php
+	to run every minute
