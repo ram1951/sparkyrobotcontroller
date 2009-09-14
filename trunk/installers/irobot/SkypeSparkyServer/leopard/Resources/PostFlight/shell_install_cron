@@ -1,0 +1,8 @@
+#!/bin/bash
+
+crontab -l > /tmp/cron.backup
+crontab -l > /tmp/cron.new
+cat /Sparky/sparky.cron >> /tmp/cron.new
+
+#install the crontab
+crontab /tmp/cron.new
