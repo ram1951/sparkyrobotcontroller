@@ -1,9 +1,9 @@
 #!/bin/bash
-#check if controld.php is running
+#check if control.php is running
 #
 # should probably be executed from cron in a crontab entry like:
 #
-# * * * * * php /Sparky/shell_check_sparky.php &> /dev/null
+# * * * * * php /Sparky/shell_check_sparky_irobot.php &> /tmp/shell_check_sparky_irobot.php.log
 #
 
 NUM=`ps ax | grep controld | grep -v grep | wc -l`
