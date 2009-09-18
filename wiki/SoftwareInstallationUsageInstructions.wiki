@@ -5,7 +5,11 @@ Author: John Celenza
 Project Home:
 http://code.google.com/p/sparkyrobotcontroller/
 
-=Installation Instructions=
+=Installation Instructions for "iRobot Create" Version=
+Please see [http://www.sparkyjr.com/page/instructions-1] for installation instructions. 
+
+
+=Installation Instructions for Make Controller Version=
 
 ==Overview==
 There are several pieces of software that need to be installed and configured:
