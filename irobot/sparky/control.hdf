@@ -1,0 +1,33 @@
+# control.hdf
+#
+# map text messages to servo movements
+#
+# each "movement" line defines:
+#
+# movement.<MOVEMENT_TEXT_MESSAGE_KEY>.<MAKEBOARD SERVO NUMBER> = <SERVO POSITION>
+#
+# more global settings are being added to the "control" tree
+#
+# control settings:
+#
+#  timeout - the number of seconds to wait after receiving most recent command before executing "stop" for safety
+#
+movement.move_straight.0 = 300
+movement.move_straight.1 = 800
+movement.move_straight_slow.0 = 300
+movement.move_straight_slow.1 = 800
+movement.move_right.0 = 800
+movement.move_right.1 = 800
+movement.move_right_slow.0 = 800
+movement.move_right_slow.1 = 800
+movement.move_left.0 = 300
+movement.move_left.1 = 300
+movement.move_left_slow.0 = 300
+movement.move_left_slow.1 = 300
+movement.move_reverse.0 = 800
+movement.move_reverse.1 = 300
+movement.move_reverse_slow.0 = 800
+movement.move_reverse_slow.1 = 300
+movement.stop.0 = 512
+movement.stop.1 = 512
+control.timeout=4

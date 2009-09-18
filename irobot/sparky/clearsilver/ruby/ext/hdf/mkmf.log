@@ -1,0 +1,62 @@
+have_library: checking for deflate() in -lz... -------------------- yes
+
+"gcc -o conftest -I/Developer/sparky/clearsilver-0.10.5/ruby/ext/hdf -I/usr/lib/ruby/1.8/universal-darwin8.0 -I../../..  -g -Os -pipe -fno-common -pipe  -fno-common -pipe -fno-common conftest.c  -L"../../../libs" -L"/usr/lib"       -lz  -lpthread -ldl -lobjc  "
+checked program was:
+/* begin */
+
+/*top*/
+int main() { return 0; }
+int t() { deflate(); return 0; }
+/* end */
+
+--------------------
+
+have_header: checking for ClearSilver.h... -------------------- yes
+
+"gcc -E -I/Developer/sparky/clearsilver-0.10.5/ruby/ext/hdf -I/usr/lib/ruby/1.8/universal-darwin8.0 -I../../..  -g -Os -pipe -fno-common -pipe  -fno-common -pipe -fno-common  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+#include <ClearSilver.h>
+/* end */
+
+--------------------
+
+have_library: checking for hdf_init() in -lneo_utl... -------------------- yes
+
+"gcc -o conftest -I/Developer/sparky/clearsilver-0.10.5/ruby/ext/hdf -I/usr/lib/ruby/1.8/universal-darwin8.0 -I../../..  -g -Os -pipe -fno-common -pipe  -fno-common -pipe -fno-common conftest.c  -L"../../../libs" -L"/usr/lib"     -lz   -lneo_utl -lz  -lpthread -ldl -lobjc  "
+checked program was:
+/* begin */
+
+/*top*/
+int main() { return 0; }
+int t() { hdf_init(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for cs_init() in -lneo_cs... -------------------- yes
+
+"gcc -o conftest -I/Developer/sparky/clearsilver-0.10.5/ruby/ext/hdf -I/usr/lib/ruby/1.8/universal-darwin8.0 -I../../..  -g -Os -pipe -fno-common -pipe  -fno-common -pipe -fno-common conftest.c  -L"../../../libs" -L"/usr/lib"     -lneo_utl -lz   -lneo_cs -lneo_utl -lz  -lpthread -ldl -lobjc  "
+checked program was:
+/* begin */
+
+/*top*/
+int main() { return 0; }
+int t() { cs_init(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for cgi_register_strfuncs() in -lneo_cgi... -------------------- yes
+
+"gcc -o conftest -I/Developer/sparky/clearsilver-0.10.5/ruby/ext/hdf -I/usr/lib/ruby/1.8/universal-darwin8.0 -I../../..  -g -Os -pipe -fno-common -pipe  -fno-common -pipe -fno-common conftest.c  -L"../../../libs" -L"/usr/lib"     -lneo_cs -lneo_utl -lz   -lneo_cgi -lneo_cs -lneo_utl -lz  -lpthread -ldl -lobjc  "
+checked program was:
+/* begin */
+
+/*top*/
+int main() { return 0; }
+int t() { cgi_register_strfuncs(); return 0; }
+/* end */
+
+--------------------
+

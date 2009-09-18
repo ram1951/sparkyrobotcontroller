@@ -1,0 +1,201 @@
+neo_cgi.o: neo_cgi.c /usr/include/python2.3/Python.h \
+  /usr/include/python2.3/patchlevel.h /usr/include/python2.3/pyconfig.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/limits.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/syslimits.h \
+  /usr/include/limits.h /usr/local/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/i386/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stdio.h /usr/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/sys/cdefs.h \
+  /usr/local/include/machine/_types.h /usr/include/i386/_types.h \
+  /usr/include/string.h /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/stdlib.h /usr/include/sys/wait.h /usr/include/sys/signal.h \
+  /usr/include/sys/appleapiopts.h /usr/local/include/machine/signal.h \
+  /usr/include/i386/signal.h /usr/include/sys/resource.h \
+  /usr/local/include/machine/endian.h /usr/include/i386/endian.h \
+  /usr/include/sys/_endian.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/stdint.h \
+  /usr/include/libkern/OSByteOrder.h \
+  /usr/include/libkern/i386/OSByteOrder.h /usr/include/alloca.h \
+  /usr/local/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/select.h /usr/include/sys/types.h \
+  /usr/include/signal.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/local/include/machine/_limits.h /usr/include/assert.h \
+  /usr/include/python2.3/pyport.h /usr/include/python2.3/pyconfig.h \
+  /usr/include/math.h /usr/include/architecture/i386/math.h \
+  /usr/include/sys/stat.h /usr/include/termios.h \
+  /usr/include/sys/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/ioccom.h /usr/include/sys/ttydefaults.h \
+  /usr/include/python2.3/pymem.h /usr/include/python2.3/pyport.h \
+  /usr/include/python2.3/object.h /usr/include/python2.3/objimpl.h \
+  /usr/include/python2.3/pymem.h /usr/include/python2.3/pydebug.h \
+  /usr/include/python2.3/unicodeobject.h /usr/include/ctype.h \
+  /usr/include/runetype.h /usr/include/wchar.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/stdarg.h \
+  /usr/include/_wctype.h /usr/include/python2.3/intobject.h \
+  /usr/include/python2.3/boolobject.h /usr/include/python2.3/longobject.h \
+  /usr/include/python2.3/floatobject.h \
+  /usr/include/python2.3/complexobject.h \
+  /usr/include/python2.3/rangeobject.h \
+  /usr/include/python2.3/stringobject.h \
+  /usr/include/python2.3/bufferobject.h \
+  /usr/include/python2.3/tupleobject.h \
+  /usr/include/python2.3/listobject.h /usr/include/python2.3/dictobject.h \
+  /usr/include/python2.3/enumobject.h \
+  /usr/include/python2.3/methodobject.h \
+  /usr/include/python2.3/moduleobject.h \
+  /usr/include/python2.3/funcobject.h \
+  /usr/include/python2.3/classobject.h \
+  /usr/include/python2.3/fileobject.h /usr/include/python2.3/cobject.h \
+  /usr/include/python2.3/traceback.h /usr/include/python2.3/sliceobject.h \
+  /usr/include/python2.3/cellobject.h /usr/include/python2.3/iterobject.h \
+  /usr/include/python2.3/descrobject.h \
+  /usr/include/python2.3/weakrefobject.h /usr/include/python2.3/codecs.h \
+  /usr/include/python2.3/pyerrors.h /usr/include/python2.3/pystate.h \
+  /usr/include/python2.3/modsupport.h /usr/include/python2.3/pythonrun.h \
+  /usr/include/python2.3/ceval.h /usr/include/python2.3/sysmodule.h \
+  /usr/include/python2.3/intrcheck.h /usr/include/python2.3/import.h \
+  /usr/include/python2.3/abstract.h /usr/include/python2.3/pyfpe.h \
+  ../ClearSilver.h ../cs_config.h ../util/neo_misc.h ../util/neo_err.h \
+  ../util/neo_str.h ../util/ulist.h ../util/neo_date.h \
+  ../util/neo_files.h ../util/neo_hash.h ../util/neo_hdf.h \
+  ../util/neo_rand.h ../util/neo_net.h ../util/neo_server.h \
+  ../util/neo_str.h ../util/ulist.h ../util/wildmat.h ../util/filter.h \
+  ../util/ulocks.h /usr/include/pthread.h /usr/include/pthread_impl.h \
+  /usr/include/sched.h ../util/rcfs.h ../util/skiplist.h ../util/dict.h \
+  ../cs/cs.h ../cgi/cgi.h ../cgi/cgiwrap.h ../cgi/date.h ../cgi/html.h \
+  p_neo_util.h
+neo_cs.o: neo_cs.c /usr/include/python2.3/Python.h \
+  /usr/include/python2.3/patchlevel.h /usr/include/python2.3/pyconfig.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/limits.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/syslimits.h \
+  /usr/include/limits.h /usr/local/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/i386/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stdio.h /usr/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/sys/cdefs.h \
+  /usr/local/include/machine/_types.h /usr/include/i386/_types.h \
+  /usr/include/string.h /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/stdlib.h /usr/include/sys/wait.h /usr/include/sys/signal.h \
+  /usr/include/sys/appleapiopts.h /usr/local/include/machine/signal.h \
+  /usr/include/i386/signal.h /usr/include/sys/resource.h \
+  /usr/local/include/machine/endian.h /usr/include/i386/endian.h \
+  /usr/include/sys/_endian.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/stdint.h \
+  /usr/include/libkern/OSByteOrder.h \
+  /usr/include/libkern/i386/OSByteOrder.h /usr/include/alloca.h \
+  /usr/local/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/select.h /usr/include/sys/types.h \
+  /usr/include/signal.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/local/include/machine/_limits.h /usr/include/assert.h \
+  /usr/include/python2.3/pyport.h /usr/include/python2.3/pyconfig.h \
+  /usr/include/math.h /usr/include/architecture/i386/math.h \
+  /usr/include/sys/stat.h /usr/include/termios.h \
+  /usr/include/sys/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/ioccom.h /usr/include/sys/ttydefaults.h \
+  /usr/include/python2.3/pymem.h /usr/include/python2.3/pyport.h \
+  /usr/include/python2.3/object.h /usr/include/python2.3/objimpl.h \
+  /usr/include/python2.3/pymem.h /usr/include/python2.3/pydebug.h \
+  /usr/include/python2.3/unicodeobject.h /usr/include/ctype.h \
+  /usr/include/runetype.h /usr/include/wchar.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/stdarg.h \
+  /usr/include/_wctype.h /usr/include/python2.3/intobject.h \
+  /usr/include/python2.3/boolobject.h /usr/include/python2.3/longobject.h \
+  /usr/include/python2.3/floatobject.h \
+  /usr/include/python2.3/complexobject.h \
+  /usr/include/python2.3/rangeobject.h \
+  /usr/include/python2.3/stringobject.h \
+  /usr/include/python2.3/bufferobject.h \
+  /usr/include/python2.3/tupleobject.h \
+  /usr/include/python2.3/listobject.h /usr/include/python2.3/dictobject.h \
+  /usr/include/python2.3/enumobject.h \
+  /usr/include/python2.3/methodobject.h \
+  /usr/include/python2.3/moduleobject.h \
+  /usr/include/python2.3/funcobject.h \
+  /usr/include/python2.3/classobject.h \
+  /usr/include/python2.3/fileobject.h /usr/include/python2.3/cobject.h \
+  /usr/include/python2.3/traceback.h /usr/include/python2.3/sliceobject.h \
+  /usr/include/python2.3/cellobject.h /usr/include/python2.3/iterobject.h \
+  /usr/include/python2.3/descrobject.h \
+  /usr/include/python2.3/weakrefobject.h /usr/include/python2.3/codecs.h \
+  /usr/include/python2.3/pyerrors.h /usr/include/python2.3/pystate.h \
+  /usr/include/python2.3/modsupport.h /usr/include/python2.3/pythonrun.h \
+  /usr/include/python2.3/ceval.h /usr/include/python2.3/sysmodule.h \
+  /usr/include/python2.3/intrcheck.h /usr/include/python2.3/import.h \
+  /usr/include/python2.3/abstract.h /usr/include/python2.3/pyfpe.h \
+  ../ClearSilver.h ../cs_config.h ../util/neo_misc.h ../util/neo_err.h \
+  ../util/neo_str.h ../util/ulist.h ../util/neo_date.h \
+  ../util/neo_files.h ../util/neo_hash.h ../util/neo_hdf.h \
+  ../util/neo_rand.h ../util/neo_net.h ../util/neo_server.h \
+  ../util/neo_str.h ../util/ulist.h ../util/wildmat.h ../util/filter.h \
+  ../util/ulocks.h /usr/include/pthread.h /usr/include/pthread_impl.h \
+  /usr/include/sched.h ../util/rcfs.h ../util/skiplist.h ../util/dict.h \
+  ../cs/cs.h ../cgi/cgi.h ../cgi/cgiwrap.h ../cgi/date.h ../cgi/html.h \
+  p_neo_util.h
+neo_util.o: neo_util.c /usr/include/python2.3/Python.h \
+  /usr/include/python2.3/patchlevel.h /usr/include/python2.3/pyconfig.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/limits.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/syslimits.h \
+  /usr/include/limits.h /usr/local/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/i386/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stdio.h /usr/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/sys/cdefs.h \
+  /usr/local/include/machine/_types.h /usr/include/i386/_types.h \
+  /usr/include/string.h /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/stdlib.h /usr/include/sys/wait.h /usr/include/sys/signal.h \
+  /usr/include/sys/appleapiopts.h /usr/local/include/machine/signal.h \
+  /usr/include/i386/signal.h /usr/include/sys/resource.h \
+  /usr/local/include/machine/endian.h /usr/include/i386/endian.h \
+  /usr/include/sys/_endian.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/stdint.h \
+  /usr/include/libkern/OSByteOrder.h \
+  /usr/include/libkern/i386/OSByteOrder.h /usr/include/alloca.h \
+  /usr/local/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/select.h /usr/include/sys/types.h \
+  /usr/include/signal.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/local/include/machine/_limits.h /usr/include/assert.h \
+  /usr/include/python2.3/pyport.h /usr/include/python2.3/pyconfig.h \
+  /usr/include/math.h /usr/include/architecture/i386/math.h \
+  /usr/include/sys/stat.h /usr/include/termios.h \
+  /usr/include/sys/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/ioccom.h /usr/include/sys/ttydefaults.h \
+  /usr/include/python2.3/pymem.h /usr/include/python2.3/pyport.h \
+  /usr/include/python2.3/object.h /usr/include/python2.3/objimpl.h \
+  /usr/include/python2.3/pymem.h /usr/include/python2.3/pydebug.h \
+  /usr/include/python2.3/unicodeobject.h /usr/include/ctype.h \
+  /usr/include/runetype.h /usr/include/wchar.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/stdarg.h \
+  /usr/include/_wctype.h /usr/include/python2.3/intobject.h \
+  /usr/include/python2.3/boolobject.h /usr/include/python2.3/longobject.h \
+  /usr/include/python2.3/floatobject.h \
+  /usr/include/python2.3/complexobject.h \
+  /usr/include/python2.3/rangeobject.h \
+  /usr/include/python2.3/stringobject.h \
+  /usr/include/python2.3/bufferobject.h \
+  /usr/include/python2.3/tupleobject.h \
+  /usr/include/python2.3/listobject.h /usr/include/python2.3/dictobject.h \
+  /usr/include/python2.3/enumobject.h \
+  /usr/include/python2.3/methodobject.h \
+  /usr/include/python2.3/moduleobject.h \
+  /usr/include/python2.3/funcobject.h \
+  /usr/include/python2.3/classobject.h \
+  /usr/include/python2.3/fileobject.h /usr/include/python2.3/cobject.h \
+  /usr/include/python2.3/traceback.h /usr/include/python2.3/sliceobject.h \
+  /usr/include/python2.3/cellobject.h /usr/include/python2.3/iterobject.h \
+  /usr/include/python2.3/descrobject.h \
+  /usr/include/python2.3/weakrefobject.h /usr/include/python2.3/codecs.h \
+  /usr/include/python2.3/pyerrors.h /usr/include/python2.3/pystate.h \
+  /usr/include/python2.3/modsupport.h /usr/include/python2.3/pythonrun.h \
+  /usr/include/python2.3/ceval.h /usr/include/python2.3/sysmodule.h \
+  /usr/include/python2.3/intrcheck.h /usr/include/python2.3/import.h \
+  /usr/include/python2.3/abstract.h /usr/include/python2.3/pyfpe.h \
+  ../ClearSilver.h ../cs_config.h ../util/neo_misc.h ../util/neo_err.h \
+  ../util/neo_str.h ../util/ulist.h ../util/neo_date.h \
+  ../util/neo_files.h ../util/neo_hash.h ../util/neo_hdf.h \
+  ../util/neo_rand.h ../util/neo_net.h ../util/neo_server.h \
+  ../util/neo_str.h ../util/ulist.h ../util/wildmat.h ../util/filter.h \
+  ../util/ulocks.h /usr/include/pthread.h /usr/include/pthread_impl.h \
+  /usr/include/sched.h ../util/rcfs.h ../util/skiplist.h ../util/dict.h \
+  ../cs/cs.h ../cgi/cgi.h ../cgi/cgiwrap.h ../cgi/date.h ../cgi/html.h \
+  p_neo_util.h
