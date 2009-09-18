@@ -1,0 +1,95 @@
+cs.o: cs.c /usr/include/stdio.h /usr/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/sys/cdefs.h \
+  /usr/local/include/machine/_types.h /usr/include/i386/_types.h \
+  /usr/include/stdlib.h /usr/include/sys/wait.h /usr/include/sys/signal.h \
+  /usr/include/sys/appleapiopts.h /usr/local/include/machine/signal.h \
+  /usr/include/i386/signal.h /usr/include/sys/resource.h \
+  /usr/local/include/machine/endian.h /usr/include/i386/endian.h \
+  /usr/include/sys/_endian.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/stdint.h \
+  /usr/include/libkern/OSByteOrder.h \
+  /usr/include/libkern/i386/OSByteOrder.h /usr/include/alloca.h \
+  /usr/local/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/select.h /usr/include/sys/types.h \
+  /usr/include/signal.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/local/include/machine/_limits.h /usr/include/i386/_limits.h cs.h \
+  ../util/neo_misc.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/limits.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/syslimits.h \
+  /usr/include/limits.h /usr/local/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/sys/syslimits.h ../cs_config.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/stdarg.h \
+  ../util/neo_err.h ../util/neo_str.h ../util/ulist.h ../util/neo_hdf.h \
+  ../util/neo_hash.h
+csdump.o: csdump.c ../cs_config.h /usr/include/stdio.h \
+  /usr/include/_types.h /usr/include/sys/_types.h \
+  /usr/include/sys/cdefs.h /usr/local/include/machine/_types.h \
+  /usr/include/i386/_types.h cs.h ../util/neo_misc.h \
+  /usr/include/stdlib.h /usr/include/sys/wait.h /usr/include/sys/signal.h \
+  /usr/include/sys/appleapiopts.h /usr/local/include/machine/signal.h \
+  /usr/include/i386/signal.h /usr/include/sys/resource.h \
+  /usr/local/include/machine/endian.h /usr/include/i386/endian.h \
+  /usr/include/sys/_endian.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/stdint.h \
+  /usr/include/libkern/OSByteOrder.h \
+  /usr/include/libkern/i386/OSByteOrder.h /usr/include/alloca.h \
+  /usr/local/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/time.h /usr/local/include/machine/_limits.h \
+  /usr/include/i386/_limits.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/limits.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/syslimits.h \
+  /usr/include/limits.h /usr/local/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/sys/syslimits.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/stdarg.h \
+  /usr/include/sys/types.h ../util/neo_err.h ../util/neo_str.h \
+  ../util/ulist.h ../util/neo_hdf.h ../util/neo_hash.h
+csparse.o: csparse.c ../cs_config.h /usr/include/sys/types.h \
+  /usr/include/sys/appleapiopts.h /usr/include/sys/cdefs.h \
+  /usr/local/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/i386/_types.h /usr/include/sys/_types.h \
+  /usr/local/include/machine/_types.h /usr/local/include/machine/endian.h \
+  /usr/include/i386/endian.h /usr/include/sys/_endian.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/stdint.h \
+  /usr/include/libkern/OSByteOrder.h \
+  /usr/include/libkern/i386/OSByteOrder.h /usr/include/sys/stat.h \
+  /usr/include/fcntl.h /usr/include/sys/fcntl.h /usr/include/unistd.h \
+  /usr/include/_types.h /usr/include/sys/unistd.h \
+  /usr/include/sys/select.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/local/include/machine/signal.h \
+  /usr/include/i386/signal.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/local/include/machine/_limits.h /usr/include/i386/_limits.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/string.h \
+  /usr/include/stdlib.h /usr/include/sys/wait.h \
+  /usr/include/sys/resource.h /usr/include/alloca.h /usr/include/stdio.h \
+  /usr/include/ctype.h /usr/include/runetype.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/limits.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/syslimits.h \
+  /usr/include/limits.h /usr/local/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/sys/syslimits.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/stdarg.h \
+  ../util/neo_misc.h ../util/neo_err.h ../util/neo_str.h ../util/ulist.h \
+  ../util/neo_files.h cs.h ../util/neo_hdf.h ../util/neo_hash.h
+cstest.o: cstest.c ../cs_config.h /usr/include/stdio.h \
+  /usr/include/_types.h /usr/include/sys/_types.h \
+  /usr/include/sys/cdefs.h /usr/local/include/machine/_types.h \
+  /usr/include/i386/_types.h /usr/include/string.h /usr/include/ctype.h \
+  /usr/include/runetype.h ../util/neo_misc.h /usr/include/stdlib.h \
+  /usr/include/sys/wait.h /usr/include/sys/signal.h \
+  /usr/include/sys/appleapiopts.h /usr/local/include/machine/signal.h \
+  /usr/include/i386/signal.h /usr/include/sys/resource.h \
+  /usr/local/include/machine/endian.h /usr/include/i386/endian.h \
+  /usr/include/sys/_endian.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/stdint.h \
+  /usr/include/libkern/OSByteOrder.h \
+  /usr/include/libkern/i386/OSByteOrder.h /usr/include/alloca.h \
+  /usr/local/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/time.h /usr/local/include/machine/_limits.h \
+  /usr/include/i386/_limits.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/limits.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/syslimits.h \
+  /usr/include/limits.h /usr/local/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/sys/syslimits.h \
+  /usr/lib/gcc/i686-apple-darwin8/4.0.1/include/stdarg.h \
+  /usr/include/sys/types.h ../util/neo_hdf.h ../util/neo_err.h \
+  ../util/neo_str.h ../util/ulist.h ../util/neo_hash.h cs.h

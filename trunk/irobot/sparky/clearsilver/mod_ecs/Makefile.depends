@@ -1,0 +1,4 @@
+mod_ecs.o: mod_ecs.c /usr/include/dlfcn.h /usr/include/sys/cdefs.h \
+  mod_ecs.h httpd.h http_config.h http_request.h http_core.h \
+  http_protocol.h http_main.h http_log.h util_script.h \
+  http_conf_globals.h
