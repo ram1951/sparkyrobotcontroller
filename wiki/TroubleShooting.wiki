@@ -1,4 +1,4 @@
-==For Trouble Shooting communication between a human controller and the robot==
+==For Trouble Shooting communication between a human controller and the robot  MAKE CONTROLLER VERSION==
 A list of items to check. This list starts from the human controller size and works through to the MakeController.
 
 
