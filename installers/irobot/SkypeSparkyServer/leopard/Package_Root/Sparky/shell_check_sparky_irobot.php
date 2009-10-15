@@ -12,5 +12,5 @@ if [ "$NUM" -lt 1 ]
 then
 	echo "`date` Restarting controld" > /tmp/controld.log
 	cd /Sparky/
-	./controld &> /tmp/controld.run.log &
+	./controld /dev/cu.KeySerial1 &> /tmp/controld.run.log &
 fi
