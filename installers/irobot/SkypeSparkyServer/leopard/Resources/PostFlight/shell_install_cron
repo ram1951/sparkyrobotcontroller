@@ -1,7 +1,7 @@
 #!/bin/bash
 
-/usr/bin/crontab -l > /tmp/cron.backup
-/usr/bin/crontab -l > /tmp/cron.new
+/usr/bin/crontab -l  > /tmp/cron.backup
+/usr/bin/crontab -l |  grep -v shell_check_sparky_irobot | grep -v control.php | grep -v controld > /tmp/cron.new
 cat /Sparky/sparky.cron >> /tmp/cron.new
 
 #install the crontab
