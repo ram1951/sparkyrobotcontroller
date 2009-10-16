@@ -1,4 +1,4 @@
 #check if control.php is running
 #
-* * * * * php /Sparky/shell_check_sparky_irobot.php &> /tmp/shell_check_sparky_irobot.php.log
+* * * * * /Sparky/shell_check_sparky_irobot.php &> /tmp/shell_check_sparky_irobot.php.log
 
