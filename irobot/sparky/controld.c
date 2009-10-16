@@ -314,59 +314,6 @@ void move_dir(char *action, HDF *config)
 printf("moving high fidelity radius:%d velocity:%d leftPercent:%.2f rightPercent:%.2f\n",radius, velocity,leftPercent, rightPercent);
 		}
 
-#if 0
-		key = wgetch(win);
-		
-		switch(key){
-		case KEY_UP:
-			if (speed < 0) {
-				speed = 0;
-				turn = 0;
-			} else {
-				speed += 50;
-			}
-			break;
-		case KEY_DOWN:
-			if (speed > 0) {
-				speed = 0;
-				turn = 0;
-			} else {
-				speed -= 50;
-			}
-			break;
-		case KEY_LEFT:
-			turn =  LMAX(turn + 1, 0);
-			break;
-		case KEY_RIGHT:
-			turn =  LMIN(turn - 1, 0);
-			break;
-		case 'h':
-			horn();
-			break;
-		case 'q':
-			not_done = 0;
-		}
-		
-
-		if (speed != 0){
-			velocity = speed;
-			if (turn != 0)
-				radius = (abs(turn) / turn) * 
-					LMAX(1000 /pow(2,abs(turn)), 1);
-			else 
-				radius = 0;
-		} else if (turn != 0) { /* turn in place*/
-			velocity = abs(turn) * 50;
-			if (turn > 0) 
-				radius = 1;
-			if (turn < 0)
-				radius = -1;
-		} else {
-			velocity = 0;
-			radius = 0;
-		}
-		
-#endif
 printf("drive (velocity=%d, radius=%d\n",velocity, radius);
 		drive(velocity, radius);
 		
