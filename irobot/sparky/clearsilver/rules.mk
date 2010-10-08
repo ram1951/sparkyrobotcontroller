@@ -61,9 +61,9 @@ endif
 
 ## -------------- base (Linux/Neotonic) options
 
-PYTHON_INC = -I/usr/include/python2.3
-PYTHON_LIB = -L/System/Library/Frameworks/Python.framework/Versions/2.3/lib/python2.3/config -lpython2.3
-PYTHON_SITE = /System/Library/Frameworks/Python.framework/Versions/2.3/lib/python2.3/site-packages
+PYTHON_INC = 
+PYTHON_LIB = 
+PYTHON_SITE = 
 JAVA_PATH  = 
 JAVA_INCLUDE_PATH = 
 CSHARP_PATH = 
@@ -78,10 +78,10 @@ CPP        = g++
 JAVAC      = $(JAVA_PATH)/bin/javac
 JAVAH      = $(JAVA_PATH)/bin/javah
 JAR        = $(JAVA_PATH)/bin/jar
-APXS       = /usr/sbin/apxs
-PYTHON     = /usr/bin/python2.3
-PERL	   = /usr/bin/perl
-RUBY       = /usr/bin/ruby
+APXS       = 
+PYTHON     = 
+PERL	   = 
+RUBY       = 
 
 CPPFLAGS   = -I$(NEOTONIC_ROOT) 
 CFLAGS     = -g -O2 -Wall $(CPPFLAGS) $(PICFLG)
@@ -97,7 +97,7 @@ DBI_LIBS   = -ldbi -ldl -lz
 LIBS       =  -lz
 LS         = /bin/ls
 XARGS      = xargs -i%
-BUILD_WRAPPERS =  mod_ecs python perl ruby
+BUILD_WRAPPERS = 
 EXTRA_UTL_OBJS = 
 EXTRA_UTL_SRC  =  ulocks.c rcfs.c skiplist.c dict.c filter.c neo_net.c neo_server.c
 
