@@ -1,12 +1,19 @@
 CC = gcc -g
-INCLUDE = -I/usr/local/include -Iclearsilver
-LIBS = -lpthread -lm -lncurses -lcreateoi clearsilver/libs/libneo_utl.a
+INCLUDE = -I/usr/local/include -Iclearsilver -I.
+LIBS = -L. -lpthread -lm -lncurses -lcreateoi clearsilver/libs/libneo_utl.a
 CVFLAGS = $(shell pkg-config --libs opencv)  $(shell pkg-config --cflags opencv) 
 
 default: all
 
 
-all: controld
+all: libcreateoi.a controld
+
+libcreateoi.a: createoi.o
+	$(AR) crv libcreateoi.a createoi.o
+	ranlib libcreateoi.a
+
+createoi.o: createoi.c
+	$(CC) createoi.c $(INCLUDE) -c -o createoi.o
 
 controld: controld.c
 	$(CC) controld.c $(INCLUDE) $(LIBS) -o controld
