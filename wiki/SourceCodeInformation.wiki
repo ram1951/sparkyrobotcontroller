@@ -7,7 +7,23 @@
 The source code is the SVN tree linked from:
 <a href="http://code.google.com/p/sparkyrobotcontroller/source/checkout">http://code.google.com/p/sparkyrobotcontroller/source/checkout</a>
 
-== controld ==
+== Getting familiar with the code ==
+
+ * There are several programs for making Sparky work. They use the Skype API and the serial interface to the iRobot. 
+
+The project is partly written in:
+ # C for the program that talks directly from the robot's MacMini over serial cable to the iRobot (controld.c)
+ # Objective-C (Xcode) for the program that talks to the Skype API on the robot's MacMini and conveys messages to controld
+ # Objective-C (Xcode) for the program that talks to the Skype API on the controller's computer that convey's joystick commands to Skype (to then send to the MacMini on the robot)
+
+Once you download the source:
+
+ * goto the sparkyrobotcontroller/irobot directory for the C source code for item 1 above (controld)
+ * goto sparkyrobotcontroller/SkypeSparkyServer for the Objective-C code for item 2 above (Sparky Server). This is an Xcode project
+ * goto sparkyrobotcontroller/SparkyControllerSkypePlugin for the Objective-C for item 3 above (Sparky Joystick). This is an Xcode project
+
+
+== more about controld ==
 Once you have downloaded the code, go to:
 /sparkyrobotcontroller/irobot/sparky
 
