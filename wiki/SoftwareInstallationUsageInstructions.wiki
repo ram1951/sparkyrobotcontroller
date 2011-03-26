@@ -6,8 +6,19 @@ Project Home:
 http://code.google.com/p/sparkyrobotcontroller/
 
 =Installation Instructions for "iRobot Create" Version=
-Please see [http://www.sparkyjr.com/page/instructions-1] for installation instructions. 
+ * You will need to install Sparky_Server.dmg on the MacMini connected to the robot
+  ** once installed you will need to also install a serial connection between the MacMini and the iRobot
+   ** the software has been tested using the Keyspan High Speed USB Serial Adapter
+  ** after installing the serial adapter, reboot the MacMini
+  ** upon booting, start Skype and Sparky_Server (there should be a desktop link)
+  ** Press the connect button on Sparky_Server to connect that program to Skype 
+ * You will need to install Sparky_Joystick.dmg on any computer that will "drive" the robot
+  ** once the software is installed connect and turn on a joystick, we have tested with the PS3 controller
+  ** start Sparky Joystick and Skype
+  ** connect from Sparky Joystick to Skype using the connect button
+  ** finally, call the Robot
 
+ Please see [http://www.sparkyjr.com/page/instructions-1] for more complete installation instructions. 
 
 =Installation Instructions for Make Controller Version=
 
